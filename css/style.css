@@ -1,0 +1,39 @@
+
+.footer-flex { 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+.footer-item-flex{
+	flex: 0 1 auto;
+	}
+@media (min-width: 320px) {
+  body {
+		background-color: lightcoral;
+   
+  }
+
+@media (min-width: 576px) {
+  body {
+		background-color: blue;
+   
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+		background-color: lightgray;
+ 
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+   background-color: lightsalmon;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    backgound-color: lightsalmon;
+  }
